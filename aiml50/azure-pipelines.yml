@@ -65,6 +65,6 @@ steps:
         --organization "https://dev.azure.com/$(org_name)/" \
         --feed "SeerPackages" \
         --name "seer_deployment" \
-        --version "1.$(BuildID)$(Rev:.r)" \
+        --version "1.2.0" \
         --description "Seer files" \
         --path .
